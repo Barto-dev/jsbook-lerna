@@ -1,6 +1,6 @@
 {
   "name": "b-js-note",
-  "version": "1.0.1",
+  "version": "1.0.2",
   "license": "MIT",
   "files": [
     "dist"
@@ -14,10 +14,10 @@
     "prepublishOnly": "esbuild src/index.ts --platform=node --outfile=dist/index.js --bundle --minify --define:process.end.NODE_ENV=\\\"production\\\""
   },
   "dependencies": {
-    "@b-js-note/local-client": "^1.0.1"
+    "@b-js-note/local-client": "^1.0.2"
   },
   "devDependencies": {
-    "@b-js-note/local-api": "^1.0.1",
+    "@b-js-note/local-api": "^1.0.2",
     "@types/node": "^14.14.37",
     "commander": "^7.2.0",
     "esbuild": "0.8.26",
